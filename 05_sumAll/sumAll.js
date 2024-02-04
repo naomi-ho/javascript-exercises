@@ -13,12 +13,9 @@ const sumAll = function(first, last) {
     }
 
     for (let i = first; i <= last; i++) {
-        array.push(i);
+        sum += i;
     }
-
-    for (let i = 0; i < array.length; i++) {
-        sum += array[i];
-    }
+    console.log(sum);
     return sum;
 };
 
